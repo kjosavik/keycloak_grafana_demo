@@ -2,9 +2,7 @@
 
 This repository demonstrates how to integrate Grafana with Keycloak using OAuth 2.0 for authentication. The setup includes Grafana, Keycloak, and Postgres containers orchestrated with Docker Compose. The purpose of this demonstration is to show a non-production-ready environment where Grafana utilizes groups and roles available on the ID token sent from Keycloak, as well as data from the user info endpoint.
 
-```
-This setup is not suitable for production. It's meant for demonstration purposes and does not include security hardening.
-```
+**This setup is not suitable for production. It's meant for demonstration purposes and does not include security hardening.**
 
 ## Prerequisites
 
