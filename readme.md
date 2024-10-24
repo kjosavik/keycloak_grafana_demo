@@ -23,7 +23,7 @@ Run the following command to spin up the containers:
 
 ```
 cd keycloak_grafana_demo
-docker-compose up
+docker compose up
 ```
 
 This will start three services:
