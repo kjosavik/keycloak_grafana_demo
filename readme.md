@@ -1,6 +1,6 @@
 ### Grafana and Keycloak Docker Compose Example
 
-This repository demonstrates how to integrate Grafana with Keycloak using OAuth 2.0 for authentication. The setup includes Grafana, Keycloak, and Postgres containers orchestrated with Docker Compose. The purpose of this demonstration is to show a non-production-ready environment where Grafana utilizes groups and roles available on the ID token sent from Keycloak, as well as data from the user info endpoint.
+This repository demonstrates how to integrate Grafana with Keycloak using OAuth 2.0 for authentication. The setup includes Grafana, Keycloak, and Postgres containers orchestrated with Docker Compose. The purpose of this demonstration is to show a non-production-ready environment where Grafana utilizes groups and roles available on the ID token sent from Keycloak, as well as data from the user info endpoint. 
 
 **This setup is not suitable for production. It's meant for demonstration purposes and does not include security hardening.**
 
@@ -9,6 +9,11 @@ This repository demonstrates how to integrate Grafana with Keycloak using OAuth 
 Before you get started, make sure you have the following installed:
 
  - Docker
+
+In order to sync Keycloak groups with teams (Grafana Teamsync) in Grafana you must have access to a enterprise license.
+
+ - License located at `/grafana-enterprise-license/license.jwt`.
+
 ## Quick Start
 
 ### Clone the Repository

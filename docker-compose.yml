@@ -6,6 +6,7 @@ services:
       - '3000:3000'
     volumes:
       - grafana-storage:/var/lib/grafana
+      - ./grafana-enterprise-license/license.jwt:/var/lib/grafana/license.jwt
     environment:
       - GF_AUTH_GENERIC_OAUTH_ENABLED=true
       - GF_AUTH_GENERIC_OAUTH_NAME=Keycloak
